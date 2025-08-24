@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HighTowers|Travels & Tour Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="swiper-bundle.min.css"/>
+  </head>
+
+  <body>
+    <!--Navigation Bar-->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="navbar-logo">
+            <a href="index.html" aria-label="HighTowers Home" class="logo">HighTowers</a>
+          </div>
+          <div class="menu-toggle" id="menu-btn">
+           <i class="fab fa-bars"></i>
+          </div>
+        </div>
+        <ul class="nav-links" id="nav-links" role="menubar">
+          <li role="none"><a role="menuitem" href="#home">Home</a></li>
+          <li role="none"><a role="menuitem" href="#about">About</a></li>
+          <li role="none"><a role="menuitem" href="#tour">Tour</a></li>
+          <li role="none"><a role="menuitem" href="#package">Package</a></li>
+          <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+          <li class="last" role="none">
+            <a role="menuitem" href="#">Book Trip</a>
+          </li>
+        </ul>
+        <div class="navbar-btn">
+          <button type="button" class="booking-btn btn">Book Trip</button>
+        </div>
+      </nav>
+    </header>
+    <!--navigation bar ends-->
+
+    <!--HERO Section-->
+    <section class="hero-section" id="home">
+      <div class="hero-container">
+        <div class="hero-content">
+          <p class="hero-subtitle">ELEVATE YOUR TRAVEL JOURNEY</p>
+          <h1 class="hero-title">
+            Experience The Magic Of<span class="hero-title-highlight1">
+              Flight</span><span class="hero-title-highlight2">!</span>
+          </h1>
+
+          <div class="hero-btn">
+            <button class="hero-booking-btn btn">Book A Trip Now</button>
+            <a href="index.html" title="Play">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="flight-img/header.png" alt="Hero Image" />
+        </div>
+      </div>
+    </section>
+    <!--HERO Section ends-->
+
+    <!--About Section-->
+    <section class="about-section body" id="about">
+      <div class="about-container">
+        <h2 class="about-header all-header">Popular Destination</h2>
+        <p class="about-text all-sub-header">
+          Discover the Most Loved Destinations Around the Globe
+        </p>
+
+        <div class="about-cards">
+          <div class="about-card">
+            <img src="flight-img/destination-1.jpg" alt="Destination Image" />
+            <div class="about-card-content">
+              <div class="about-places">
+                <h3 class="about-card-title">Tradition and Futurism</h3>
+                <p class="about-card-description">New York City, USA</p>
+              </div>
+              <div class="about-card-rating">
+                <span><i class="fa-solid fa-star"></i> 4.7</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <img src="flight-img/destination-2.jpg" alt="Destination Image" />
+            <div class="about-card-content">
+              <div class="about-places">
+                <h3 class="about-card-title">The City of Lights</h3>
+                <p class="about-card-description">Paris, France</p>
+              </div>
+              <div class="about-card-rating">
+                <span><i class="fa-solid fa-star"></i> 4.5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <img src="flight-img/destination-3.jpg" alt="Destination Image" />
+            <div class="about-card-content">
+              <div class="about-places">
+                <h3 class="about-card-title">Island of the Gods</h3>
+                <p class="about-card-description">Bali, Indonesia</p>
+              </div>
+              <div class="about-card-rating">
+                <span><i class="fa-solid fa-star"></i> 4.8</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--About Section ends-->
+
+    <!--Tour Section-->
+    <section class="tour-section body" id="tour">
+      <div class="tour-container">
+        <h2 class="tour-header all-header">Journey To The Sky Made Simple!</h2>
+        <p class="tour-text all-sub-header">
+          Effortless Planning for Your Next Adventure
+        </p>
+
+        <div class="tour-cards">
+          <div class="tour-card">
+            <div class="tour-card-content1">
+              <span><i class="ri-bookmark-3-line"></i></span>
+              <h4 class="tour-card-title">Seamless Booking Process</h4>
+            </div>
+            <div class="tour-card-content2">
+              <span><i class="ri-bookmark-3-line"></i></span>
+              <h4 class="tour-card-description">
+                Easy Reservations, One Click Away
+              </h4>
+              <p class="tour-card-info">
+                From flights and accommodations to activities and transfers,
+                everything you need is available at your fingertips, making
+                travel planning effortless.
+              </p>
+            </div>
+          </div>
+
+          <div class="tour-card">
+            <div class="tour-card-content1">
+              <span><i class="ri-landscape-fill"></i></span>
+              <h4 class="tour-card-title">Tailored Itineraries</h4>
+            </div>
+            <div class="tour-card-content2">
+              <span><i class="ri-landscape-fill"></i></span>
+              <h4 class="tour-card-description">
+                Customized Plans Just for You
+              </h4>
+              <p class="tour-card-info">
+                Enjoy personalized travel plans designed to match your
+                preferences and interests. Whether you seek adventure or
+                cultural immersion, our tailored itineraries ensure your journey
+                is uniquely yours.
+              </p>
+            </div>
+          </div>
+
+          <div class="tour-card">
+            <div class="tour-card-content1">
+              <span><i class="ri-map-2-line"></i></span>
+              <h4 class="tour-card-title">Expert Local Insights</h4>
+            </div>
+            <div class="tour-card-content2">
+              <span><i class="ri-map-2-line"></i></span>
+              <h4 class="tour-card-description">
+                Insider Tips and Recommendations
+              </h4>
+              <p class="tour-card-info">
+                We provide curated recommendations for dining, sightseeing, and
+                hidden gems, so you can experience each destination like a
+                local.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Tour Section ends-->
+
+    <!--Package Section-->
+    <section class="package-section body" id="package">
+      <div class="package-container">
+        <div class="package-img">
+          <img src="flight-img/showcase.jpg" alt="showcaseImage" />
+        </div>
+        <div class="package-content">
+          <h3 class="package-title">UNLEASH WANDERLUST WITH HIGHTOWERS</h3>
+          <p class="package-description">
+            Embark on a journey like no other with Skywings, where your travel
+            dreams come to life. Our mission is to inspire and facilitate your
+            adventures, whether you seek the vibrant energy of bustling
+            cityscapes, the serene beauty of pristine beaches, or the
+            captivating history of ancient landmarks. At Skywings, we provide
+            expertly curated destinations and personalized itineraries, ensuring
+            that every trip is tailored to your unique preferences. Discover
+            hidden gems, immerse yourself in diverse cultures, and create
+            unforgettable memories that will last a lifetime.
+          </p>
+          <p class="package-description">
+            With Skywings as your ultimate travel companion, exploring the
+            wonders of the world has never been easier. Our insider tips and
+            local insights give you the tools to navigate new places with
+            confidence and excitement. From the moment you start planning to the
+            day you return home, we are dedicated to making your travel
+            experience seamless and enriching.
+          </p>
+
+          <div class="package-btn-con">
+            <button class="package-btn">
+              Book A Flight Now<span><i class="ri-arrow-right-line"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ACHIEVEMENT-SECTION-->
+    <section class="achievement-section body">
+      <div class="achievement-cards">
+        <div class="achievement-card">
+          <h3 class="achievement-numbers">10+</h3>
+          <p class="achievement-text">Years Experiences</p>
+        </div>
+        <div class="achievement-card">
+          <h3 class="achievement-numbers">12K</h3>
+          <p class="achievement-text">Happy Clients</p>
+        </div>
+        <div class="achievement-card">
+          <h3 class="achievement-numbers">4.8</h3>
+          <p class="achievement-text">Overall Ratings</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Discovery Section-->
+    <section class="discovery-section body">
+      <div class="discovery-container">
+        <h2 class="discovery-title all-header">
+          Discover The World From Above
+        </h2>
+        <p class="discovery-subtitle all-sub-header">
+          Experience Breathtaking Views and Unique Perspectives
+        </p>
+
+        <div class="discovery-cards">
+          <div class="discovery-card">
+            <span><i class="ri-camera-lens-line"></i></span>
+            <h4>Aerial Cityscapes</h4>
+            <p>
+              Witness the architectural marvels and bustling streets from
+              bird's-eye view, offering a unique perspective.
+            </p>
+          </div>
+
+          <div class="discovery-card">
+            <span><i class="ri-ship-line"></i></span>
+            <h4>Coastal Wonders</h4>
+            <p>
+              Fly over pristine coastlines and turquoise waters, revealing
+              hidden coves and vibrant coral reefs.
+            </p>
+          </div>
+
+          <div class="discovery-card">
+            <span><i class="ri-landscape-line"></i></span>
+            <h4>Historic Landmarks</h4>
+            <p>
+              Observe the grandeur of ancient castles and other significant
+              sites in a way that ground tours can't offer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Discovery Section ends-->
+
+    <!-- TESTIMONIAL-section -->
+    <section class="slides body">
+      <div class="slides-container">
+        <h2 class="slides-header all-header">
+          Loved By Over Thousand Travelers
+        </h2>
+        <p class="slides-description all-sub-header">
+          Discover the stories of wanderlust and cherished memories through the
+          eyes of our valued clients.
+        </p>
+
+        <div class="slides-main">
+          <div class="slides-content">
+            <!-- Slide1 -->
+            <div class="slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <div class="testimonial-ratings">
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                  </div>
+                  <p class="testimonial-text">
+                    Skywings has completely transformed my travel experience.
+                    From finding hidden gems in bustling cities to discovering
+                    serene retreats off the beaten path, every detail was
+                    thoughtfully arranged. I can't recommend Skywings enough for
+                    anyone looking to elevate their travel experience!
+                  </p>
+                </div>
+
+                <div class="testimonial-info">
+                  <img src="flight-img/client-1.jpg" alt="testimonial 1" />
+                  <div class="testimonial-details">
+                    <h4 class="testimonial-name">John Adams</h4>
+                    <p class="testimonial-role">Travel Blogger</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <div class="testimonial-ratings">
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                  </div>
+                  <p class="testimonial-text">
+                    My recent adventure with Skywings was nothing short of
+                    spectacular. The personalized itineraries and
+                    recommendations they provided led me to extraordinary
+                    locations that I would never have found on my own. I'm
+                    already planning my next adventure with them!
+                  </p>
+                </div>
+                <div class="testimonial-info">
+                  <img src="flight-img/client-2.jpg" alt="testimonial 2" />
+                  <div class="testimonial-details">
+                    <h4 class="testimonial-name">Emily Thompson</h4>
+                    <p class="testimonial-role">Adventure Enthusiast</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <div class="testimonial-ratings">
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                  </div>
+                  <p class="testimonial-text">
+                    Skywings offered a transformative experience for my research
+                    into historical landmarks. The unique aerial perspectives
+                    and provided a new level of appreciation and insight into
+                    the sites I studied. I highly recommend their services to
+                    fellow historians and cultural enthusiasts.
+                  </p>
+                </div>
+                <div class="testimonial-info">
+                  <img src="flight-img/client-3.jpg" alt="testimonial 3" />
+                  <div class="testimonial-details">
+                    <h4 class="testimonial-name">Sarah Lee</h4>
+                    <p class="testimonial-role">Cultural Historian</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <div class="testimonial-ratings">
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                    <span>
+                      <i class="ri-star-fill"></i>
+                    </span>
+                  </div>
+                  <p class="testimonial-text">
+                    Finding a balance between work and travel can be
+                    challenging, but Skywings made it effortless. Their
+                    efficient planning and excellent recommendations helped me
+                    maximize my downtime and enjoy every moment of my trip. I
+                    look forward to working with them again on future travels.
+                  </p>
+                </div>
+                <div class="testimonial-info">
+                  <img src="flight-img/client-4.jpg" alt="testimonial 4" />
+                  <div class="testimonial-details">
+                    <h4 class="testimonial-name">David Patel</h4>
+                    <p class="testimonial-role">Business Executive</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIAL-section ends -->
+
+    <!--Contact Section-->
+    <footer id="contact" class="contact-section">
+      <div class="contact-container body">
+        <div class="contact-col">
+          <div class="contact-logo">
+            <a href="#" class="logo">HighTowers</a>
+          </div>
+          <p>
+            Explore the world with ease and excitement through our comprehensive
+            travel platform. Your journey begins here, where seamless planning
+            meets unforgettable experiences.
+          </p>
+          <ul class="contact-social-links">
+            <li>
+              <a href="#" title="Facebook"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#" title="Instagram"
+                ><i class="ri-instagram-line"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" title="YouTube"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-col" aria-label="Footer Quick Links">
+          <h3 class="quick-links">Quick Links</h3>
+          <ul class="contact-links">
+            <li><a title="home" href="#home">Home</a></li>
+            <li><a href="#tour">Flights</a></li>
+            <li><a href="#package">Hotels</a></li>
+            <li><a href="#home">Cruise</a></li>
+          </ul>
+        </div>
+        <div class="contact-col">
+          <h3 class="contact-us">Contact Us</h3>
+          <ul class="contact-links">
+            <li>
+              <a href="#"
+                ><span><i class="ri-phone-fill"></i></span> +91 9876543210</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span><i class="ri-record-mail-line"></i></span
+                >info@highTowers</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span><i class="ri-map-pin-2-fill"></i></span>Lagos,Nigeria</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="contact-col">
+          <h3 class="subscribe">Subscribe</h3>
+          <form action="/" method="" class="form">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button
+              class="subscribe-btn btn"
+              type="submit"
+              for="email"
+              name="subscribe"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      
+      </div>
+        <div class="dev-info">
+          <p>  Copyright © <span id="dev-year"></span> Abdullahi-Mohammed. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
