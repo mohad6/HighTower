@@ -1,7 +1,6 @@
-/**
- * description: This file contains the JavaScript code for the HighTowers website.
- *
- */
+
+ //description: This file contains the JavaScript code for the HighTowers website.
+
 // This code handles the navigation menu toggle functionality and animations.
 // Select DOM elements for menu button, navigation links, and menu icon.
 const menuBtn = document.getElementById("menu-btn");
@@ -113,10 +112,19 @@ ScrollReveal().reveal(".package-btn", {
  * description: This code initializes a Swiper instance for a responsive image slider.
  */
 const swiper = new Swiper(".swiper", {
+  /**
+   * description
+   */
   loop: true,
   grabCursor: true,
   spaceBetween: 20,
   breakpoints: {
+    /**
+     * description: This code defines responsive breakpoints for the Swiper slider.
+     * It adjusts the number of slides visible based on the screen width.
+     * At widths of 0px and above, 1 slide is shown; at 450px and above, 2 slides are shown; and at 900px and above, 3 slides are shown.
+     * This ensures an optimal viewing experience across different device sizes.
+     */
     0: {
       slidesPerView: 1,
     },
