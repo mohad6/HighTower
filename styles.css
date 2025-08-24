@@ -1,4 +1,4 @@
- /* import google font */
+/* import google font */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 /* Global Styles */
 * {
@@ -483,7 +483,7 @@ li {
   text-align: center;
 }
 
-.swiper{
+.swiper {
   margin-top: 4em;
   width: 100%;
   gap: 1em;
@@ -635,8 +635,8 @@ li {
   text-align: center;
   font-size: 1em;
 }
-.dev-info{
-  display:flex;
+.dev-info {
+  display: flex;
   margin: 0 auto;
   justify-content: center;
 }
@@ -743,10 +743,10 @@ li {
 }
 
 @media (min-width: 540px) {
-  .package-content h3{
+  .package-content h3 {
     font-size: 3em !important;
   }
-  
+
   .about-cards,
   .tour-cards,
   .package-container,
@@ -759,10 +759,9 @@ li {
     align-items: center;
     gap: 0.5em;
   }
-  .package-description{
+  .package-description {
     line-height: 2em;
   }
-
 }
 
 @media (min-width: 780px) {
@@ -815,10 +814,7 @@ li {
     margin-left: -1em;
   }
 
-
   .slide {
     min-width: unset;
   }
 }
-
-
