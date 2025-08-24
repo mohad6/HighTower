@@ -112,10 +112,21 @@ ScrollReveal().reveal(".package-btn", {
 /**
  * description: This code initializes a Swiper instance for a responsive image slider.
  */
-const swiper = new Swiper(".slides.main", {
-  slidesPerView: 3,
-  spaceBetween: 20,
+const swiper = new Swiper('.swiper', {
   loop: true,
+  grabCursor: true,
+  spaceBetween: 20,
+  breakpoints:{
+    0: {
+      slidesPerView: 1,
+    },
+    450: {
+      slidesPerView: 2,
+    },
+    900: {
+      slidesPerView: 3,
+    }
+  }
 });
 
 

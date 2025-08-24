@@ -483,14 +483,16 @@ li {
   text-align: center;
 }
 
-.slides-main{
+.swiper{
   margin-top: 4em;
   width: 100%;
+  gap: 1em;
 }
-
-.slide {
+.swiper-slide {
   min-width: 370px;
   background: var(--semi-white-color);
+  gap: 1em;
+  border-radius: 1em;
 }
 .testimonial-card {
   padding: 5px;
